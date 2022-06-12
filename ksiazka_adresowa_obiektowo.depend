@@ -1,22 +1,48 @@
 # depslib dependency file v1.0
-1654109955 source:c:\projektybuni\ksiazka_adresowa_obiektowo\main.cpp
+1655047858 source:c:\projektybuni\ksiazka_adresowa_obiektowo\main.cpp
 	<iostream>
 	"KsiazkaAdresowa.h"
 
-1654112511 c:\projektybuni\ksiazka_adresowa_obiektowo\ksiazkaadresowa.h
+1655048171 c:\projektybuni\ksiazka_adresowa_obiektowo\ksiazkaadresowa.h
+	<iostream>
+	<windows.h>
+	"UzytkownikMenedzer.h"
+
+1655050472 c:\projektybuni\ksiazka_adresowa_obiektowo\uzytkownik.h
+	<iostream>
+
+1654112790 source:c:\projektybuni\ksiazka_adresowa_obiektowo\uzytkownik.cpp
+	"Uzytkownik.h"
+
+1655048003 source:c:\projektybuni\ksiazka_adresowa_obiektowo\ksiazkaadresowa.cpp
+	"KsiazkaAdresowa.h"
+
+1655051118 c:\projektybuni\ksiazka_adresowa_obiektowo\uzytkownikmenedzer.h
 	<iostream>
 	<vector>
 	<windows.h>
 	<fstream>
 	<sstream>
 	"Uzytkownik.h"
+	"PlikZUzytkownikami.h"
 
-1654104008 c:\projektybuni\ksiazka_adresowa_obiektowo\uzytkownik.h
+1655047858 source:c:\projektybuni\ksiazka_adresowa_obiektowo\metodypomocnicze.cpp
+	"MetodyPomocnicze.h"
+
+1655050658 c:\projektybuni\ksiazka_adresowa_obiektowo\metodypomocnicze.h
 	<iostream>
+	<sstream>
 
-1654104008 source:c:\projektybuni\ksiazka_adresowa_obiektowo\uzytkownik.cpp
+1655051314 c:\projektybuni\ksiazka_adresowa_obiektowo\plikzuzytkownikami.h
+	<iostream>
+	<vector>
+	<fstream>
 	"Uzytkownik.h"
+	"MetodyPomocnicze.h"
 
-1654112495 source:c:\projektybuni\ksiazka_adresowa_obiektowo\ksiazkaadresowa.cpp
-	"KsiazkaAdresowa.h"
+1655051313 source:c:\projektybuni\ksiazka_adresowa_obiektowo\plikzuzytkownikami.cpp
+	"PlikZUzytkownikami.h"
+
+1655051118 source:c:\projektybuni\ksiazka_adresowa_obiektowo\uzytkownikmenedzer.cpp
+	"UzytkownikMenedzer.h"
 
