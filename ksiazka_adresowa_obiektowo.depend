@@ -1,23 +1,23 @@
 # depslib dependency file v1.0
-1655047858 source:c:\projektybuni\ksiazka_adresowa_obiektowo\main.cpp
+1655224706 source:c:\projektybuni\ksiazka_adresowa_obiektowo\main.cpp
 	<iostream>
 	"KsiazkaAdresowa.h"
 
-1655048171 c:\projektybuni\ksiazka_adresowa_obiektowo\ksiazkaadresowa.h
+1655224382 c:\projektybuni\ksiazka_adresowa_obiektowo\ksiazkaadresowa.h
 	<iostream>
 	<windows.h>
 	"UzytkownikMenedzer.h"
 
-1655050472 c:\projektybuni\ksiazka_adresowa_obiektowo\uzytkownik.h
+1655051603 c:\projektybuni\ksiazka_adresowa_obiektowo\uzytkownik.h
 	<iostream>
 
 1654112790 source:c:\projektybuni\ksiazka_adresowa_obiektowo\uzytkownik.cpp
 	"Uzytkownik.h"
 
-1655048003 source:c:\projektybuni\ksiazka_adresowa_obiektowo\ksiazkaadresowa.cpp
+1655224382 source:c:\projektybuni\ksiazka_adresowa_obiektowo\ksiazkaadresowa.cpp
 	"KsiazkaAdresowa.h"
 
-1655051118 c:\projektybuni\ksiazka_adresowa_obiektowo\uzytkownikmenedzer.h
+1655224382 c:\projektybuni\ksiazka_adresowa_obiektowo\uzytkownikmenedzer.h
 	<iostream>
 	<vector>
 	<windows.h>
@@ -26,23 +26,24 @@
 	"Uzytkownik.h"
 	"PlikZUzytkownikami.h"
 
-1655047858 source:c:\projektybuni\ksiazka_adresowa_obiektowo\metodypomocnicze.cpp
+1655051603 source:c:\projektybuni\ksiazka_adresowa_obiektowo\metodypomocnicze.cpp
 	"MetodyPomocnicze.h"
 
-1655050658 c:\projektybuni\ksiazka_adresowa_obiektowo\metodypomocnicze.h
+1655051603 c:\projektybuni\ksiazka_adresowa_obiektowo\metodypomocnicze.h
 	<iostream>
 	<sstream>
 
-1655051314 c:\projektybuni\ksiazka_adresowa_obiektowo\plikzuzytkownikami.h
+1655225178 c:\projektybuni\ksiazka_adresowa_obiektowo\plikzuzytkownikami.h
 	<iostream>
 	<vector>
 	<fstream>
+	<cstdlib>
 	"Uzytkownik.h"
 	"MetodyPomocnicze.h"
 
-1655051313 source:c:\projektybuni\ksiazka_adresowa_obiektowo\plikzuzytkownikami.cpp
+1655224626 source:c:\projektybuni\ksiazka_adresowa_obiektowo\plikzuzytkownikami.cpp
 	"PlikZUzytkownikami.h"
 
-1655051118 source:c:\projektybuni\ksiazka_adresowa_obiektowo\uzytkownikmenedzer.cpp
+1655224382 source:c:\projektybuni\ksiazka_adresowa_obiektowo\uzytkownikmenedzer.cpp
 	"UzytkownikMenedzer.h"
 
