@@ -17,7 +17,7 @@
 1655228147 source:c:\projektybuni\ksiazka_adresowa_obiektowo\ksiazkaadresowa.cpp
 	"KsiazkaAdresowa.h"
 
-1655228087 c:\projektybuni\ksiazka_adresowa_obiektowo\uzytkownikmenedzer.h
+1655229248 c:\projektybuni\ksiazka_adresowa_obiektowo\uzytkownikmenedzer.h
 	<iostream>
 	<vector>
 	<windows.h>
@@ -33,7 +33,7 @@
 	<iostream>
 	<sstream>
 
-1655228087 c:\projektybuni\ksiazka_adresowa_obiektowo\plikzuzytkownikami.h
+1655302739 c:\projektybuni\ksiazka_adresowa_obiektowo\plikzuzytkownikami.h
 	<iostream>
 	<vector>
 	<fstream>
