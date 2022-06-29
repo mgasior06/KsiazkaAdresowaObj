@@ -21,7 +21,7 @@ Uzytkownik UzytkownikMenedzer::podajDaneNowegoUzytkownika()
     string login;
     do
     {
-        cout << "Podaj login: ";
+        cout << "Podaj login (rejestracja): ";
         cin >> login;
         uzytkownik.ustawLogin(login);
         //uzytkownik.login = wczytajLinie();
@@ -96,7 +96,7 @@ int UzytkownikMenedzer::logowanieUzytkownika()
                     cout << endl << "Zalogowales sie." << endl << endl;
                     system("pause");
                     //return itr -> id;
-                    return uzytkownicy[i].pobierzId();
+                    return idZalogowanegoUzytkownika = uzytkownicy[i].pobierzId();
                 }
             }
             cout << "Wprowadzono 3 razy bledne haslo." << endl;
@@ -130,4 +130,22 @@ int UzytkownikMenedzer::logowanieUzytkownika()
     cout << "Nie ma uzytkownika z takim loginem" << endl << endl;
     system("pause");
     return 0;
+}
+
+void UzytkownikMenedzer::zmianaHaslaZalogowanegoUzytkownika()
+{
+    string noweHaslo = "";
+    cout << "Podaj nowe haslo: ";
+    cin >> noweHaslo;
+
+    for (int i = 0; i < uzytkownicy.size(); i++)
+    {
+        if (uzytkownicy[i].pobierzId() == idZalogowanegoUzytkownika)
+        {
+            uzytkownicy[i].ustawHaslo(noweHaslo);
+            cout << "Haslo zostalo zmienione." << endl << endl;
+            system("pause");
+        }
+    }
+    plikZUzytkownikami.zapiszWszystkichUzytkownikowDoPliku(uzytkownicy);
 }
