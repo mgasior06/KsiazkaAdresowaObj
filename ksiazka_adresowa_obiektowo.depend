@@ -3,7 +3,7 @@
 	<iostream>
 	"KsiazkaAdresowa.h"
 
-1656516242 c:\projektybuni\ksiazka_adresowa_obiektowo\ksiazkaadresowa.h
+1657211944 c:\projektybuni\ksiazka_adresowa_obiektowo\ksiazkaadresowa.h
 	<iostream>
 	<windows.h>
 	"UzytkownikMenedzer.h"
@@ -14,10 +14,10 @@
 1654112790 source:c:\projektybuni\ksiazka_adresowa_obiektowo\uzytkownik.cpp
 	"Uzytkownik.h"
 
-1656516242 source:c:\projektybuni\ksiazka_adresowa_obiektowo\ksiazkaadresowa.cpp
+1657211944 source:c:\projektybuni\ksiazka_adresowa_obiektowo\ksiazkaadresowa.cpp
 	"KsiazkaAdresowa.h"
 
-1656516242 c:\projektybuni\ksiazka_adresowa_obiektowo\uzytkownikmenedzer.h
+1657211944 c:\projektybuni\ksiazka_adresowa_obiektowo\uzytkownikmenedzer.h
 	<iostream>
 	<vector>
 	<windows.h>
@@ -46,4 +46,6 @@
 
 1656516242 source:c:\projektybuni\ksiazka_adresowa_obiektowo\uzytkownikmenedzer.cpp
 	"UzytkownikMenedzer.h"
+
+1657214073 source:c:\projektybuni\ksiazka_adresowa_obiektowo\adresatmenedzer.cpp
 
