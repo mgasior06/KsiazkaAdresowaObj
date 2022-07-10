@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1657466176 source:c:\projektybuni\ksiazka_adresowa_obiektowo\main.cpp
+1657470835 source:c:\projektybuni\ksiazka_adresowa_obiektowo\main.cpp
 	<iostream>
 	"KsiazkaAdresowa.h"
 
@@ -70,7 +70,7 @@
 	"Adresat.h"
 	"MetodyPomocnicze.h"
 
-1657389552 c:\projektybuni\ksiazka_adresowa_obiektowo\adresatmenedzer.h
+1657470835 c:\projektybuni\ksiazka_adresowa_obiektowo\adresatmenedzer.h
 	<iostream>
 	<vector>
 	<windows.h>

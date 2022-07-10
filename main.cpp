@@ -9,7 +9,7 @@ int main()
     KsiazkaAdresowa ksiazkaAdresowa("Uzytkownicy.txt");
     //string nazwaPlikuZAdresatami = "Adresaci.txt";
 
-    AdresatMenedzer adresatMenedzer;
+
     //ksiazkaAdresowa.rejestracjaUzytkownika();
     ksiazkaAdresowa.rejestracjaUzytkownika();
     ksiazkaAdresowa.wypiszWszystkichUzytkownikow();

@@ -23,6 +23,8 @@ class AdresatMenedzer
 
     Adresat podajDaneNowegoAdresata(int idZalogowanegoUzytkownika, int idOstatniegoAdresata);
     string zamienPierwszaLitereNaDuzaAPozostaleNaMale(string tekst);
+    void wyswietlWszystkichAdresatow(vector <Adresat> adresaci);
+    void wyswietlDaneAdresata(Adresat adresat);
 
 
 public:
