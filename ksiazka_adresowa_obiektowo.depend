@@ -1,12 +1,13 @@
 # depslib dependency file v1.0
-1656515914 source:c:\projektybuni\ksiazka_adresowa_obiektowo\main.cpp
+1657470835 source:c:\projektybuni\ksiazka_adresowa_obiektowo\main.cpp
 	<iostream>
 	"KsiazkaAdresowa.h"
 
-1656516242 c:\projektybuni\ksiazka_adresowa_obiektowo\ksiazkaadresowa.h
+1657470352 c:\projektybuni\ksiazka_adresowa_obiektowo\ksiazkaadresowa.h
 	<iostream>
 	<windows.h>
 	"UzytkownikMenedzer.h"
+	"AdresatMenedzer.h"
 
 1655051603 c:\projektybuni\ksiazka_adresowa_obiektowo\uzytkownik.h
 	<iostream>
@@ -14,10 +15,10 @@
 1654112790 source:c:\projektybuni\ksiazka_adresowa_obiektowo\uzytkownik.cpp
 	"Uzytkownik.h"
 
-1656516242 source:c:\projektybuni\ksiazka_adresowa_obiektowo\ksiazkaadresowa.cpp
+1657211944 source:c:\projektybuni\ksiazka_adresowa_obiektowo\ksiazkaadresowa.cpp
 	"KsiazkaAdresowa.h"
 
-1656516242 c:\projektybuni\ksiazka_adresowa_obiektowo\uzytkownikmenedzer.h
+1657211944 c:\projektybuni\ksiazka_adresowa_obiektowo\uzytkownikmenedzer.h
 	<iostream>
 	<vector>
 	<windows.h>
@@ -26,10 +27,10 @@
 	"Uzytkownik.h"
 	"PlikZUzytkownikami.h"
 
-1655051603 source:c:\projektybuni\ksiazka_adresowa_obiektowo\metodypomocnicze.cpp
+1657468353 source:c:\projektybuni\ksiazka_adresowa_obiektowo\metodypomocnicze.cpp
 	"MetodyPomocnicze.h"
 
-1655051603 c:\projektybuni\ksiazka_adresowa_obiektowo\metodypomocnicze.h
+1657468846 c:\projektybuni\ksiazka_adresowa_obiektowo\metodypomocnicze.h
 	<iostream>
 	<sstream>
 
@@ -44,6 +45,38 @@
 1656515914 source:c:\projektybuni\ksiazka_adresowa_obiektowo\plikzuzytkownikami.cpp
 	"PlikZUzytkownikami.h"
 
-1656516242 source:c:\projektybuni\ksiazka_adresowa_obiektowo\uzytkownikmenedzer.cpp
+1657211944 source:c:\projektybuni\ksiazka_adresowa_obiektowo\uzytkownikmenedzer.cpp
 	"UzytkownikMenedzer.h"
+
+1657389552 source:c:\projektybuni\ksiazka_adresowa_obiektowo\adresatmenedzer.cpp
+	"AdresatMenedzer.h"
+
+1657214073 source:c:\projektybuni\ksiazka_adresowa_obiektowo\plikzadrseatami.cpp
+
+1657389552 source:c:\projektybuni\ksiazka_adresowa_obiektowo\adresat.cpp
+	"Adresat.h"
+
+1657389552 c:\projektybuni\ksiazka_adresowa_obiektowo\adresat.h
+	<iostream>
+
+1657469956 source:c:\projektybuni\ksiazka_adresowa_obiektowo\plikzadresatami.cpp
+	"PlikZAdresatami.h"
+
+1657469612 c:\projektybuni\ksiazka_adresowa_obiektowo\plikzadresatami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Adresat.h"
+	"MetodyPomocnicze.h"
+
+1657470835 c:\projektybuni\ksiazka_adresowa_obiektowo\adresatmenedzer.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	<algorithm>
+	"Adresat.h"
+	"PlikZAdresatami.h"
 
