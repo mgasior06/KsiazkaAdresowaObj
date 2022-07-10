@@ -1,14 +1,14 @@
 #include "Adresat.h"
 
-void Adresat::ustawIdAdrseata(int noweIdAdrseata)
+void Adresat::ustawIdAdresata(int noweIdAdresata)
 {
-    //if (noweId >= 0)
-    //id = noweId;
+    if (noweIdAdresata >= 0)
+    idAdresata = noweIdAdresata;
 }
 void Adresat::ustawIdUzytkownika(int noweIdUzytkownika)
 {
-    //if (noweId >= 0)
-    //id = noweId;
+    if (noweIdUzytkownika >= 0)
+    idUzytkownika = noweIdUzytkownika;
 }
 void Adresat::ustawImie(string noweImie)
 {
