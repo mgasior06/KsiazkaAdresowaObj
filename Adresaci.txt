@@ -1,0 +1,9 @@
+1|1|Bolek|Bolek|123|123|123|
+2|2|Bolek|Bolek|123|123|123|
+3|1|Bolek|Bolek|123|123|123|
+4|2|Rr|Rr|Rr|Rr|Rr|
+5|3|T|T|T|T|T|
+6|1|E|E|E|E|E|
+7|1|R|R|R|R|R|
+8|4|R|R|R|R|R|
+9|4|T|T|T|T|T|
