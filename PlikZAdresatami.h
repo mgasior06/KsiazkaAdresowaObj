@@ -15,7 +15,7 @@ class PlikZAdresatami
     vector <Adresat> adresaci;
     const string nazwaPlikuZAdresatami;
     int idZalogowanegoUzytkownika;
-   // int daneJednegoAdresataOddzielonePionowymiKreskami;
+    int idOstatniegoAdresata;
     string daneAdresataOddzielonePionowymiKreskami;
 
     bool czyPlikJestPusty();
@@ -28,7 +28,8 @@ class PlikZAdresatami
 public:
     PlikZAdresatami(string NAZWAPLIKUZADRESATAMI) : nazwaPlikuZAdresatami (NAZWAPLIKUZADRESATAMI) {};
     void dopiszAdresataDoPliku(Adresat adresat);
-    vector<Adresat> wczytajAdresatowZalogowanegoUzytkownikaZPliku();
+    vector<Adresat> wczytajAdresatowZalogowanegoUzytkownikaZPliku(int idZalogowanegoUzytkownika);
+    int pobierzIdOstatniegoAdresata();
 };
 
 #endif
